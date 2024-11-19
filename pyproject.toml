@@ -1,0 +1,10 @@
+[build-system]
+requires = ['setuptools', 'setuptools-scm', 'wheel']
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdp"
+version = "0.1.0"
+
+[tool.setuptools]
+packages = ["gdp"]
